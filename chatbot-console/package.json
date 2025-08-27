@@ -1,0 +1,20 @@
+{
+  "name": "chatbot-console",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Chatbot de consola con memoria, búsqueda web (Serper.dev), streaming y citas.",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "jsdom": "^24.0.0",
+    "@mozilla/readability": "^0.5.0",
+    "openai": "^4.56.0",
+    "p-limit": "^5.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  }
+}
