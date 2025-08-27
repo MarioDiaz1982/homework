@@ -1,0 +1,12 @@
+{
+  "name": "demo-openai",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "groq-sdk": "^0.30.0",
+    "langchain": "^0.3.31",
+    "openai": "^4.104.0",
+    "undici": "^7.15.0"
+  }
+}
